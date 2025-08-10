@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables - CRITIQUE POUR LA SÉCURITÉ
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# Fichiers de configuration sensibles
+config.json
+secrets.json
+
+# Logs du bot
+bot.log
+error.log
+
+# Fichiers temporaires
+temp/
+tmp/
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+
+# Clés SSH et certificats
+*.pem
+*.key
+*.crt
+*.p12
+
+# Fichiers de base de données locaux
+*.db
+*.sqlite
+*.sqlite3
